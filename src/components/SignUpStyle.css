@@ -1,0 +1,58 @@
+.from-container2{
+   
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    background-color: aqua;
+}
+
+.from-container2 h1{
+    padding-top: 2%;
+    margin-top: 12%;
+}
+
+.from-container2 form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.from-container2 input,select{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #2a2a2a;
+}
+
+
+.from-container2 textarea{
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #2a2a2a;
+}
+
+
+.from-container2  button{
+    display: inline;
+    margin-bottom: 5%;
+}
+
+
+@media screen and (max-width:850px){
+    .from-container2 {
+        margin: 4rem 2rem;
+
+    }
+
+    .from-container2 form{
+        padding-top: 2rem;
+        width: 90%;
+    }
+    .from-container2 h1{
+        margin-top: 22%;
+    }
+
+}
